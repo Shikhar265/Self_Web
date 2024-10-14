@@ -1,0 +1,81 @@
+.SUBS {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;/*spacing outside*/
+    margin-left: 20px;
+    transition: opacity 1s;
+    vertical-align: top;
+    /* transition effect or fading effeact*/
+}
+
+.SUBS:hover {
+    background-color: rgb(200, 0, 0);
+    ;
+    /* activates when the cursur is on it */
+    opacity: 0.8;
+    /* fading effect */
+}
+
+.SUBS:active {
+    background-color: black;
+    /* activates when clicked */
+    opacity: 0.5;
+}
+
+.join {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(41, 118, 211);
+      /* padding: 10px; */
+      padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(41, 118, 211);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    /* multiple transition applyed by the use of ","*/
+}
+
+.join:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.join:active {
+    opacity: 0.7;
+}
+
+.tweet {
+    background-color: rgb(2, 137, 255);
+    color: white;
+    border: none;
+      /* padding: 10px; */
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15;
+    vertical-align: top;
+}
+
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    /*1 value on right 2 value on down 3 value is blur effect 4 is color */
+    /*rgba : a is opacity*/
+}

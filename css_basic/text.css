@@ -1,0 +1,52 @@
+p{
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.vtitle{
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    /* font-style: italic; */
+    /* text-align: center; */
+    margin-bottom: 5px ;
+
+}
+.vstat{
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+.vauth{
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+.vdes{
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+.appletext{
+    margin-bottom: 50px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+}
+.spanun{
+    cursor: pointer;
+}
+.spanun:hover{
+    text-decoration: underline;
+}
+.spanexp{
+    color: red;
+    margin-left: 12px;
+}
+.spanexp:hover{
+    text-decoration: underline;
+}
