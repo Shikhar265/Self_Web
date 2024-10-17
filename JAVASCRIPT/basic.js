@@ -80,5 +80,112 @@ console.log(typeof(str));
 
 // -----------------------------------------------------------------------------------------
 
-// oerations
+// operations
 
+let values=3
+let negvalues=-values
+console.log(negvalues);
+
+
+let x="hetesh"
+let y="xyz"
+let s3=x+y
+console.log(s3);
+
+console.log("1"+ 2);
+console.log(1+ "2");
+console.log("1"+ "2");
+console.log("1"+ 2+ 2);
+console.log(1+ 2+"2");
+console.log((3+5)*7%3);
+console.log(true);
+console.log(+true);//1
+console.log(+"");//0
+
+let num1,num2, num3
+num1=num2=num3=2+2
+
+let gameCounter=100
+gameCounter++
+console.log(gameCounter);//101
+++gameCounter
+console.log(gameCounter);//101+1
+
+// ------------------------------------------------------------------------------------------
+
+// Comparition of Database
+
+console.log(2>1);
+console.log(2>=1);
+console.log(2<1);
+console.log(2<=1);
+console.log(2==1);
+console.log(2!=1);
+
+console.log("2">1);
+console.log("02">1);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >=0);
+
+// ===  => checks database along with the convertion
+
+console.log("2"===2);
+
+
+// ---------------------------------------------------------------------------------------------------
+
+// //   Data Types of JS
+
+// # Primitive
+
+// 7 types:  String, NUmber, Boolean, Null, Undefined, Symbol, BigInt
+
+const x_score=100
+const x_scorevalue=100.3        
+const X_islogged=false
+const x_outside=null
+let Email;
+const id=Symbol('123')
+const x_anotherid=Symbol('123')
+console.log(id===x_anotherid);
+
+const bigNumber=147896314562486524789n//will display all the numbers all together if "n" is put in the last
+console.log(bigNumber);
+
+// Reference/Non-Premitive: Array, Objects, Functions
+
+const heros=["shau", "graha", "hdikd"]//array
+let ab={
+    name:"abc",
+    age:25 
+};//object
+
+const myFunc=function(){
+    console.log("Hello world");    
+}//function
+
+
+// ---------------------------------------------------------------------------------------------------
+
+// stack(primitive) and heap(non-primitive) memory
+
+let myYotube="heteshxyz"
+let another=myYotube
+another="chai"
+console.log(myYotube);
+console.log(another);
+
+let user={
+    email:"user@google.com ",
+    upi:"user#ybl"
+}
+let user1=user
+user1.email="hitesh@gmṇail.com"
+console.log(user.email);
+console.log(user1.email);
+
+// ---------------------------------------------------------------------------------------------------
+
+// Strings
