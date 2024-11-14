@@ -189,3 +189,101 @@ console.log(user1.email);
 // ---------------------------------------------------------------------------------------------------
 
 // Strings
+
+const nameX="shikhar"
+const nameY=50
+console.log(nameX+nameY+" valeu");
+
+console.log(`hello my name is ${nameX} and me number is ${nameY}`);
+
+const game=new String('shikhatr-ch-ww')
+
+console.log(game[0]);
+console.log(game.__proton__);
+console.log(game.length);
+
+const newh=game.substring(0,5)
+console.log(newh);
+
+const newn=game.slice(-7,4)
+console.log(newn);
+
+const newx="          shi             "
+console.log(newx);
+console.log(newx.trim());
+
+const url="https://htesch.com%20technocx"
+console.log(url.replace('%20','-'));
+console.log(url.includes("htesch"));
+
+console.log(game.split('-'));
+
+// ------------------------------------------------------------------------------------------------------
+
+// Number and Maths
+
+const goal=400
+console.log(goal);
+
+
+const balance=new  Number(100)
+console.log(balance);
+
+console.log(balance.toString());
+console.log(balance.toString().length);
+console.log(balance.toFixed(2));
+
+const other=23.234
+console.log(other.toPrecision(3));//defines the limit to which the decimal can be counted freely
+
+const hunderds=1000000
+console.log(hunderds.toLocaleString('en-IN'));
+
+
+// ################################___MATH___########################################
+
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(6.4));
+console.log((Math.random()*100)+1);
+
+const min=10;
+const max=20;
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+
+//   ----------------------------------------------------------------------------------------------------------------
+
+// date
+
+let mydate=new Date()
+console.log(mydate);
+console.log(mydate.toString());
+console.log(mydate.toDateString());
+console.log(mydate.toLocaleString());
+
+console.log(typeof mydate);
+
+let mynewdate=new Date(2024, 10, 14)
+console.log(mynewdate.toDateString());
+
+let mynedate=new Date(2024, 10, 14, 20, 3)
+console.log(mynedate.toLocaleString());
+
+
+let mytimestamp=Date.now()
+console.log(mytimestamp);
+console.log(mynewdate.getTime());
+console.log(Math.floor(Date.now()/1000));
+
+let newDate=new Date()
+console.log(newDate);
+console.log(newDate.getDay());
+console.log(newDate.getMonth()); //and many more functions are there like this in js which will give us daay hour etc.
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+})
+console.log(newDate);
+
+// --------------------------------------------------------------------------------------------
